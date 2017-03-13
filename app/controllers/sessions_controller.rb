@@ -28,4 +28,7 @@ class SessionsController < ApplicationController
   	def user_params
   		params.require(:user).permit(:email, :password)
   	end
+
+
+    #Bug: once one user is logged in, other users' show pages are visible
 end

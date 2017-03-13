@@ -1,0 +1,44 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* variables */
+$mauve: #8c3949;
+$navy-green: #003f42;
+$ice-blue: #99b0c0;
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+
+/* typography */
+h1, .navbar-brand {
+	font-family: 'Leckerli One', cursive;
+}
+
+body {
+	background: url(./books.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+
+
+/* header */
+.navbar {
+	background: $navy-green;
+	.navbar-brand {
+		color: #fff;
+	}
+}
+
+
+/* main */
+
+.main {
+	background: #fff;
+}
+
+/* form */
+.form-new {
+	margin: 0 auto;
+	float: none;
+	padding: 2em;
+}
