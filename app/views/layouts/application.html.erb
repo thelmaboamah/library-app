@@ -10,8 +10,9 @@
 
   <body>
 	  <%= render 'layouts/partials/nav' %>
-    <%= render 'layouts/partials/flash_message' %>
+    
     <div class="container main">
+      <%= render 'layouts/partials/flash_message' %>
       <%= yield %>
     </div>
     
